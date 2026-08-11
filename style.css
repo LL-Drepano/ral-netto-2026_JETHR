@@ -306,9 +306,10 @@ button:hover {
 }
 
 .small-note {
-  margin-top: 4px;
-  font-size: 0.9rem;
-  color: #666;
+  margin: 4px 0 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: #999;
 }
 
 [hidden] {
