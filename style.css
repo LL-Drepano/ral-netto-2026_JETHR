@@ -247,7 +247,7 @@ button:hover {
   grid-template-columns: 1fr auto;
   gap: 20px;
   padding: 13px 0;
-  border-top: 1px solid #ededE8;
+  border-top: 1px solid #edede8;
 }
 
 .rows dt {
