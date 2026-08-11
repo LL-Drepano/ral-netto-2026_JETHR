@@ -305,6 +305,16 @@ button:hover {
   border: 0;
 }
 
+.small-note {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+[hidden] {
+  display: none !important;
+}
+
 @media (max-width: 640px) {
   .page {
     width: min(100% - 20px, 920px);
@@ -332,11 +342,4 @@ button:hover {
     display: inline-block;
     margin-top: 8px;
   }
-.small-note {
-  margin-top: 4px;
-  font-size: 0.9rem;
-  color: #666;
-}
-[hidden] {
-  display: none !important;
 }
