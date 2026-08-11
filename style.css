@@ -333,3 +333,6 @@ button:hover {
     margin-top: 8px;
   }
 }
+[hidden] {
+  display: none !important;
+}
