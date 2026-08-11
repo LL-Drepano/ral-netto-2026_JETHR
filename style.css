@@ -332,6 +332,10 @@ button:hover {
     display: inline-block;
     margin-top: 8px;
   }
+.small-note {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: #666;
 }
 [hidden] {
   display: none !important;
