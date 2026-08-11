@@ -44,7 +44,10 @@ function render(result) {
   setText('tasse-totali', money.format(tasse));
   setText('contributi-totali', money.format(result.contributi.totale));
   setText('aliquota-effettiva', `Prelievo effettivo ${percent.format(result.aliquotaEffettiva)}`);
+ setText('row-inps-aggiuntivo', `− ${money.format(result.contributi.aggiuntivo)}`);
 
+document.getElementById('inps-aggiuntivo-row').hidden =
+  result.contributi.aggiuntivo === 0;
   setText('row-ral', money.format(result.input.ral));
   setText('row-contributi', `− ${money.format(result.contributi.totale)}`);
   setText('row-imponibile', money.format(result.imponibile));
